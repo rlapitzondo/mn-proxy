@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: mnProxy
+netty:
+  default:
+    allocator:
+      max-order: 3
