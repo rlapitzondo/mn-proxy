@@ -1,7 +1,12 @@
 micronaut:
   application:
     name: mnProxy
+  server:
+    port: 8081
 netty:
   default:
     allocator:
       max-order: 3
+#logger:
+#  levels:
+#    foo.bar: ERROR

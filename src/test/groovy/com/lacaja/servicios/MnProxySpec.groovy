@@ -1,9 +1,9 @@
-package com.example
+package com.lacaja.servicios
 
 import io.micronaut.runtime.EmbeddedApplication
 import io.micronaut.test.extensions.spock.annotation.MicronautTest
-import spock.lang.Specification
 import jakarta.inject.Inject
+import spock.lang.Specification
 
 @MicronautTest
 class MnProxySpec extends Specification {

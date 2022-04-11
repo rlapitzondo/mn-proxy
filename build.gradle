@@ -21,6 +21,8 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     runtimeOnly("ch.qos.logback:logback-classic")
     compileOnly("org.graalvm.nativeimage:svm")
+    compileOnly("org.apache.httpcomponents:httpclient:4.5")
+    implementation("com.squareup.okhttp3:okhttp:4.2.2")
 
     implementation("io.micronaut:micronaut-validation")
 
