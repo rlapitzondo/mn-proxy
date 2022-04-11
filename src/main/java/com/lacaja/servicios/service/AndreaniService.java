@@ -18,7 +18,7 @@ import java.util.stream.Stream;
  * @Author Raul Lapitzondo raul.lapitzondo@gmail.com -
  * Area de Arquitectura La Caja
  * @Date 9/4/22 17:02
- * @project mn-proxy
+ * @project meli2-onpremise-api-andreani-mn
  * @Version 1.0
  */
 @Singleton

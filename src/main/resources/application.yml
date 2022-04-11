@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: mnProxy
+    name: meli2-onpremise-api-andreani-mn
   server:
     port: 8081
 netty:

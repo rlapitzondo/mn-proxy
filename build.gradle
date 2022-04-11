@@ -4,8 +4,8 @@ plugins {
     id("io.micronaut.application") version "3.3.2"
 }
 
-version = "0.1"
-group = "com.example"
+version = "1.0"
+group = "com.lacaja.servicios"
 
 repositories {
     mavenCentral()
@@ -30,7 +30,7 @@ dependencies {
 
 
 application {
-    mainClass.set("com.example.Application")
+    mainClass.set("com.lacaja.servicios.App")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")
@@ -43,7 +43,7 @@ micronaut {
     testRuntime("spock2")
     processing {
         incremental(true)
-        annotations("com.example.*")
+        annotations("com.lacaja.servicios.*")
     }
 }
 
